@@ -1,0 +1,24 @@
+@import 'variables';
+@import 'utility';
+@import 'normalize';
+
+@import 'plugins/animations';
+
+@import 'components/form';
+
+html {
+	font-family: $body-font-family;
+	font-size: $body-font-size;
+	* {
+		box-sizing: border-box;
+	}
+}
+
+body {
+	background: $pale-grey;
+}
+
+::user-selected {
+	background: rgba($sky, 0.5);
+	color: $white;
+}
