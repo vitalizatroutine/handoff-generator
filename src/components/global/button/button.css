@@ -1,0 +1,13 @@
+.button {
+  display: inline-block;
+  padding: 0 15px;
+  border-radius: 3px;
+  background-color: #0f5ca3;
+  color: #ffffff;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 30px;
+  cursor: pointer; }
+  .button--citrus {
+    background-color: #f1af0f;
+    color: #22272b; }

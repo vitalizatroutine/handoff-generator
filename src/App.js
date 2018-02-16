@@ -9,7 +9,7 @@ class App extends Component {
     render() {
         return (
             <main className="page">
-                <Button label={"Goodbye World"} />
+                <Button className="button button--citrus" label={"Submit"} />
             </main>
         );
     }
