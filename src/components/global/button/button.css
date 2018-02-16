@@ -1,13 +1,28 @@
 .button {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 20px;
   border-radius: 3px;
   background-color: #0f5ca3;
   color: #ffffff;
   font-size: 13px;
+  font-weight: 300;
   text-transform: uppercase;
-  line-height: 30px;
+  line-height: 36px;
   cursor: pointer; }
+  .button + .button {
+    margin-left: 6px; }
   .button--citrus {
     background-color: #f1af0f;
     color: #22272b; }
+    .button--citrus:hover {
+      background-color: #dc9e27; }
+  .button--dark-slate {
+    background-color: #22272b;
+    color: #ffffff; }
+    .button--dark-slate:hover {
+      background-color: #1F2327; }
+  .button--transparent {
+    background-color: transparent;
+    color: #f1f1f1; }
+    .button--transparent:hover {
+      background-color: rgba(34, 39, 43, 0.1); }
