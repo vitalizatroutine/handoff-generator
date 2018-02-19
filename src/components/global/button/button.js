@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
+import './button.css';
+
 class Button extends Component {
   render() {
-    const { label } = this.props;
+    const { className, label } = this.props;
 
     return (
-        <span className="button">{label}</span>
+        <span className={className}>{label}</span>
     );
   }
 }
