@@ -1,0 +1,15 @@
+.field {
+  display: inline-block; }
+  .field_label {
+    display: block;
+    font-size: 13px;
+    line-height: 22px; }
+  .field_input {
+    height: 40px;
+    min-width: 300px;
+    padding: 0 8px;
+    border: none;
+    background: #eeeeee;
+    line-height: 40px; }
+    .field_input:focus {
+      outline: none; }
