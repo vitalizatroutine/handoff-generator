@@ -1,0 +1,23 @@
+@import '../../../scss/variables';
+
+.field {
+  display: inline-block;
+
+  &_label {
+    display: block;
+    font-size: $body-font-size;
+    line-height: 22px;
+  }
+  &_input {
+    height: 40px;
+    min-width: 300px;
+    padding: 0 8px;
+    border: none;
+    background: $light-grey;
+    line-height: 40px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
